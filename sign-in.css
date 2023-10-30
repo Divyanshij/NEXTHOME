@@ -1,0 +1,51 @@
+img{
+    align-items: center;
+}
+h3{
+    font-family: Kanit;
+}
+h4{
+    font-family: cursive;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-in-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+form {
+    text-align: left;
+}
+
+label, input {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    background-color:#b38d2c59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b38d2c;
+}

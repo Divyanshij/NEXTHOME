@@ -1,0 +1,33 @@
+/* Hide the checkbox */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+  /* Styling the paragraph */
+  .text p {
+    height: 100px; /* Set a fixed height for the paragraph */
+    overflow: hidden; /* Hide the overflowing text */
+    position: relative;
+  }
+  
+  /* Show More/Show Less labels */
+  .show-more, .show-less {
+    display: none; /* Initially hide the labels */
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  /* Show More and Show Less functionality */
+  input[type="checkbox"]:checked ~ p {
+    height: auto; /* Display full text when checked */
+  }
+  
+  input[type="checkbox"]:checked ~ .show-more {
+    display: none; /* Hide 'Show More' when checkbox is checked */
+  }
+  
+  input[type="checkbox"]:checked ~ .show-less {
+    display: block; /* Display 'Show Less' when checkbox is checked */
+  }
+  
